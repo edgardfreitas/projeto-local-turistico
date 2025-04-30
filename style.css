@@ -27,3 +27,9 @@ img {
   font-size: 16px;
   align-items: center;
 }
+
+h2 {
+  color: #1B1B1B;
+  font-size: 32px;
+  font-weight: bold;
+}
