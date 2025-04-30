@@ -1,0 +1,29 @@
+:root {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #F5F4F0;
+}
+
+.headline {
+  color: #E1624F;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h1 {
+  color: #1B1B1B;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+img {
+  border-radius: 28px;
+}
+
+.subtitle {
+  color: #333333;
+  font-size: 16px;
+  align-items: center;
+}
