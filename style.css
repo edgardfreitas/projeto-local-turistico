@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #F5F4F0;
+  background-color: #f5f4f0;
 }
 
 #page {
@@ -22,27 +22,28 @@ main div img {
   margin-top: 44px;
 }
 
-/* section + section {
+section + section {
   margin-top: 40px;
-} */
+}
 
 .headline {
-  color: #E1624F;
+  color: #e1624f;
   font-size: 16px;
   line-height: 22px;
   font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: 8px;
 }
 
 h1 {
-  color: #1B1B1B;
+  color: #1b1b1b;
   font-size: 36px;
   font-weight: bold;
 }
 
 img {
   border-radius: 28px;
-  width: 100%
+  width: 100%;
 }
 
 p {
@@ -59,12 +60,17 @@ p {
   font-style: italic;
   text-align: center;
   margin-top: 24px;
+  margin-bottom: 44px;
 }
 
 h2 {
-  color: #1B1B1B;
+  color: #1b1b1b;
   font-size: 32px;
   font-weight: bold;
+}
+
+h3 {
+  margin-bottom: 4px;
 }
 
 .divider {
@@ -74,13 +80,26 @@ h2 {
   background-color: #d9d9d9;
 }
 
+#title-list {
+  margin-top: 64px;
+}
+
+.content-card {
+  margin-top: 20px;
+}
+
+.bom-para {
+  font-weight: bold;
+}
+
 .historia {
-  color: #0C51A7;
+  color: #0c51a7;
 }
 
 ul li {
   font-size: 16px;
   font-weight: bold;
+  list-style-position: inside;
 }
 
 ul li::marker {
@@ -88,17 +107,22 @@ ul li::marker {
 }
 
 #casais {
-  color: #591B98
+  color: #591b98;
 }
 
 #familias {
-  color: #E5245E;
+  color: #e5245e;
 }
 
 #orcamento {
-  color: #E95E10;
+  color: #e95e10;
 }
 
 footer {
   text-align: center;
+}
+
+footer img {
+  vertical-align: middle;
+  width: 1%;
 }
