@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   font-family: "Open Sans", sans-serif;
 }
@@ -6,10 +11,31 @@ body {
   background-color: #F5F4F0;
 }
 
+#page {
+  box-sizing: border-box;
+  margin: 88px 80 137px;
+}
+
+main {
+  padding: 88px;
+}
+
+main div img {
+  /* height: 375px; */
+  object-fit: cover;
+  margin-top: 44px;
+}
+
+section + section {
+  margin-top: 40px;
+}
+
 .headline {
   color: #E1624F;
   font-size: 16px;
+  line-height: 22px;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -20,16 +46,55 @@ h1 {
 
 img {
   border-radius: 28px;
+  width: 100%
+}
+
+p {
+  color: #333333;
 }
 
 .subtitle {
-  color: #333333;
   font-size: 16px;
-  align-items: center;
+  line-height: 22px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 24px;
 }
 
 h2 {
   color: #1B1B1B;
   font-size: 32px;
   font-weight: bold;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
+.historia {
+  color: #0C51A7;
+}
+
+ul li {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+ul li::marker {
+  color: #333333;
+}
+
+#casais {
+  color: #591B98
+}
+
+#familias {
+  color: #E5245E;
+}
+
+#orcamento {
+  color: #E95E10;
 }
