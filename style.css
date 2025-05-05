@@ -13,11 +13,7 @@ body {
 
 #page {
   box-sizing: border-box;
-  margin: 88px 80 137px;
-}
-
-main {
-  padding: 88px;
+  margin: 88px 80px 48px;
 }
 
 main div img {
@@ -26,9 +22,9 @@ main div img {
   margin-top: 44px;
 }
 
-section + section {
+/* section + section {
   margin-top: 40px;
-}
+} */
 
 .headline {
   color: #E1624F;
@@ -51,6 +47,10 @@ img {
 
 p {
   color: #333333;
+}
+
+#description {
+  text-align: center;
 }
 
 .subtitle {
@@ -97,4 +97,8 @@ ul li::marker {
 
 #orcamento {
   color: #E95E10;
+}
+
+footer {
+  text-align: center;
 }
